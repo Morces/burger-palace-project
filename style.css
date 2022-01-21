@@ -2,15 +2,44 @@
   margin: 0px;
   padding: 0px;
 }
-h1 {
-display: inline-block;
-margin: 20px;
+.logoname {
+ float: left;
+}
+header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 10%;
+  margin-left: 45%;
+  border: none;
+  border-radius: 0px;
+}
+h1.burger {
+display: inline-flexbox;
+text-indent: 10px;
+float: left;
+}
+.navigation{
+color: black;
+padding: 0px;
+font-size: 26px;
+font-weight: bold;
+float: right;
+display: inline;
+position: relative;
+font-family: sans-serif;
+  }
+#burger span {
+  font-family: fantasy;
+  font-size: 60px;
+}
+.order {
+  padding: 40px;
+  background-color: chocolate;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0px;
+  color: white;
+}
 
-}
-header ol {
-  display: inline;
-  text-align: right;
-}
-div.flying burger {
-  align-content: right;
-}
+
