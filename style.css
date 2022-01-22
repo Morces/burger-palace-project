@@ -173,4 +173,20 @@ display: inline-flex;
 border: lightgray;
 background-color: lightgray;
 }
+.menu {
+text-align: center;
+font-weight: bold;
 
+}
+.black {
+  font-family: sans-serif;
+  color: black;
+  font-weight: bold;
+}
+.yellow {
+ font-family: sans-serif;
+ color: yellow;
+ font-style: normal;
+ font-size: 25px;
+ font-weight: bold;
+}
