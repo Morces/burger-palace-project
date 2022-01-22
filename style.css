@@ -2,38 +2,68 @@
   margin: 0px;
   padding: 0px;
 }
-.logoname {
+.logoname div {
  float: left;
  display: inline;
+}
+#word {
+  font-weight: bolder;
+  font-size: 30px;
+  font-display: ;
+  
+
 }
 header {
   margin-top: 20px;
   margin-bottom: 50px;
-  margin-right: 10%;
-  margin-left: 5%;
+  margin-right: 10%%;
+  margin-left: 2%;
   border: none;
   border-radius: 0px;
 }
-h1.burger {
 
-float: left;
-}
-.navbar{
+.navbar a{
 color: black;
-padding: 0px;
+padding: 30px;
+border-style: none;
 flex-direction: row;
 font-size: 20px;
+text-decoration: none;
 font-weight: bold;
-float: right;
-display: flex;
+float: inline-start;
+display: inline;
 justify-content: right;
 font-family: sans-serif;
-  }
+background-color: white;
+border: none;
+border-radius: 0px;
+}
+.navbox {
+padding-right: 0px;
+padding-left: 5%;
+float: right;
+}
+a:hover {
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-color: orangered;
+text-decoration-thickness: 5px;
+}
 #burger span {
-  font-family: fantasy;
-  font-size: 60px;
-  display: flex;
-  justify-content: left;
+font-family: fantasy;
+font-size: 60px;
+display: flex;
+justify-content: left;
+}
+.firstp {
+font-weight: 700;
+font-size: 40px;
+padding-top: 250px;
+padding-left: 35px;
+}
+.secp {
+padding-left: 35px;
+padding-top: 35px;
 }
 .order {
   padding-left: 10px;
@@ -48,10 +78,16 @@ font-family: sans-serif;
   color: white;
   font-family: sans-serif;
 }
+.button {
+padding-top: 90px;
+padding-left: 55px;
+}
 .flyburger div {
   display: flex;
+  float: right;
   justify-content: right;
   background-color: #F6B400;
-  padding
+  padding: 50px;
+  border: 1px solid yellow;
 }
 
