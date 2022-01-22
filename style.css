@@ -47,8 +47,8 @@ float: right;
 a:hover {
 text-decoration-line: underline;
 text-decoration-style: solid;
-text-decoration-color: orangered;
-text-decoration-thickness: 5px;
+text-decoration-color: orange;
+text-decoration-thickness: 10px;
 }
 .firstp {
 font-weight: 700;
@@ -79,11 +79,11 @@ padding-top: 90px;
 padding-left: 55px;
 }
 .fullburger { 
-padding-right: 50px;
+padding-right: 100px;
 display: inline;
 float: right;
-padding-top: 50px;
-padding-bottom: 300px;
+padding-top: 35x;
+padding-bottom: 350px;
 border: 1px solid #F6B400;
 height: 200px;
 background-color: #F6B400;
@@ -172,16 +172,23 @@ padding-bottom: 15px;
 display: inline-flex;
 border: lightgray;
 background-color: lightgray;
+padding-bottom: 200px;
+align-items: center;
+padding-top: 50px;
+padding-left: 250px;
+padding-right: 202px;
 }
 .menu {
 text-align: center;
 font-weight: bold;
-
+text-decoration: none;
+padding-bottom: 35px;
 }
 .black {
   font-family: sans-serif;
   color: black;
   font-weight: bold;
+  text-decoration: none;
 }
 .yellow {
  font-family: sans-serif;
@@ -189,4 +196,21 @@ font-weight: bold;
  font-style: normal;
  font-size: 25px;
  font-weight: bold;
-}
+ text-decoration: none;
+ text-decoration-line: none;
+ text-decoration-style: none;
+ }
+ .sbgc {
+background-blend-mode: normal;
+background-color: blanchedalmond;
+border: 1px solid white;
+ }
+ .disp1 {
+  border: 1px solid black;
+  height: 300px;
+  width: 250px;
+  border-radius: 20px;
+ }
+ .b1 {
+  
+ }
