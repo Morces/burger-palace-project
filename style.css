@@ -448,3 +448,11 @@ padding-right: 300px;
 height: 200px;
 width: 1000px;
 }
+.cash {
+text-align: left;
+padding-top: 10px;
+padding-left: 15px;
+}
+.cart {
+background-color: #E1EBE6;
+}
