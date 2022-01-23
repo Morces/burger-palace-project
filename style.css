@@ -490,6 +490,15 @@ padding-bottom: 1px;
 .log {
 display: inline;
 }
-.media  {
+.media {
 height: 5px;
+float: center;
+}
+.ackn {
+text-align: right;
+float: right;
+padding-bottom: 10px;
+}
+.copy {
+font-family: Arial, Helvetica, sans-serif;
 }
