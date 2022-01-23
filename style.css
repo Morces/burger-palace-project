@@ -96,6 +96,11 @@ border: 1px solid #F6B400;
 height: 200px;
 background-color: #F6B400;
 }
+.sbgc {
+background: linear-gradient(to left, #F6B400 50%, white 50%); 
+background-position: top;
+}
+
 .level2 {
 display: inline-flex;
 }
