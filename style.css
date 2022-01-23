@@ -98,7 +98,7 @@ background-color: #F6B400;
 }
 .sbgc {
 background: linear-gradient(to left, #F6B400 50%, white 50%); 
-background-position: top;
+background-position: bottom;
 }
 
 .level2 {
