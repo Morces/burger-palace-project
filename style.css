@@ -93,7 +93,7 @@ display: inline-flex;
 }
 .quality {
 float: left;
-padding-left: 70px;
+padding-left: 90px;
 padding-bottom: 40px;
 padding-top: 30px;
 }
@@ -104,6 +104,7 @@ padding-top: 90px;
 padding-bottom: 20px;
 padding-right: 500px;
 padding-left: 20px;
+font-size: 25px;
 }
 }
 .note1 {
@@ -201,16 +202,111 @@ padding-bottom: 35px;
  text-decoration-style: none;
  }
  .sbgc {
-background-blend-mode: normal;
-background-color: blanchedalmond;
+background-blend-mode: overlay;
+background-color: white
 border: 1px solid white;
  }
  .disp1 {
-  border: 1px solid black;
+  border: 2px solid blanchedalmond;
   height: 300px;
-  width: 250px;
+  width: 260px;
   border-radius: 20px;
  }
  .b1 {
-  
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
  }
+ .db {
+  text-align: center;
+  color: #4c0121;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+ }
+ .note4 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: sans-serif;
+  color: black;
+ }
+ .note5 {
+   text-align: center;
+   color: black;
+   font-family: sans-serif;
+   padding-top: 20px;
+ }
+ .disp2 {
+   border: 2px solid blanchedalmond;
+   height: 300px;
+   width: 260px;
+   border-radius: 20px;
+ }
+.b2 {
+padding-top: 20px;
+padding-left: 50px;
+}
+.disp3 {
+border: 2px solid blanchedalmond;
+height: 300px;
+width: 260px;
+border-radius: 20px;
+}
+.b3 {
+padding-left: 50px;
+padding-top: 20px;
+}
+.note6 {
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+.disp4 {
+  border: 2px solid blanchedalmond;
+  height: 300px;
+  width: 260px;
+  border-radius: 20px;
+  }
+  .b4 {
+  padding-left: 50px;
+  padding-top: 20px;
+  }
+  .note7 {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    padding-top: 20px;}
+.disp5 {
+border: 2px solid blanchedalmond;
+height: 300px;
+width: 260px;
+border-radius: 20px;
+}
+.b5 {
+padding-left: 50px;
+padding-top: 20px;
+}
+.note8 {
+text-align: center;
+color: black;
+font-family: sans-serif;
+padding-top: 20px;}
+.disp6 {
+border: 2px solid blanchedalmond;
+height: 300px;
+width: 260px;
+border-radius: 20px;
+}
+.b6 {
+padding-left: 50px;
+padding-top: 20px;
+}
+.note9 {
+text-align: center;
+color: black;
+font-family: sans-serif;
+padding-top: 20px;
+}
+.display {
+display: inline-flex;
+}
