@@ -4,9 +4,9 @@
 
 }
 body {
-border: 3px solid black;
-margin-right: 100px;
-margin-left: 100px;
+border: 1px solid white;
+
+margin: auto;
 }
 .logoname div {
  float: left;
@@ -51,7 +51,6 @@ float: inline-start;
 display: inline;
 justify-content: right;
 font-family: sans-serif;
-background-color: white;
 border: none;
 border-radius: 0px;
 }
@@ -63,7 +62,7 @@ float: right;
 a:hover {
 text-decoration-line: underline;
 text-decoration-style: solid;
-text-decoration-color: orange;
+text-decoration-color: black;
 text-decoration-thickness: 10px;
 }
 .firstp {
@@ -101,9 +100,7 @@ display: inline;
 float: right;
 padding-top: 35px;
 padding-bottom: 350px;
-border: 1px solid #F6B400;
 height: 200px;
-background-color: #F6B400;
 align-items: right;
 }
 .sbgc {
@@ -388,7 +385,7 @@ color: grey;
 font-weight: bold;
 }
 .images {
-display: inline-flex;
+display: inline-block;
 position: relative;
 padding-left: 300px;
 padding-top: 50px;
@@ -410,28 +407,41 @@ left: 0px;
 font-weight: bolder;
 font-size: 35px;
 font-family: Arial, Helvetica, sans-serif;
-padding-top: 200px;
-padding-bottom: 50px;
+padding-top: 100px;
+padding-bottom: 100px;
 padding-left: 20px;
 }
-.appstore {
-padding-top: 1px;
-}
-.screen {
-align-items: right;
+
+
+.screens {
 display: inline-flex;
+flex-direction: row;
 padding-top: 100px;
+padding-right: 50px;
+float: right;
+height: 100px;
 }
 .m1 {
-width: 150px;
+width: 250px;
+float: inline-end;
+height: 500px;
 }
 .m2 {
-width: 150px;
+width: 250px;
+float: inline-start;
+height: 500px;
 }
-.msst {
+.mobileapps{
+  float: left;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  justify-content: space-between 5px;
+}
+.appstore {
 background-color: #F6B400;
-border: 1px solid #F6B400;
-display: inline-flex;
+flex-direction: column;
+width: 200px;
 }
 .google {
 padding-top: 50px;
@@ -455,9 +465,7 @@ padding-bottom: 35px;
 font-family: Arial, Helvetica, sans-serif;
 padding-right: 62px;
 }
-ul a {
- 
-}
+
 .input {
 height: 32px;
 padding-right: 20px;
@@ -501,4 +509,20 @@ padding-bottom: 10px;
 }
 .copy {
 font-family: Arial, Helvetica, sans-serif;
+}
+.dicover {
+display: flex;
+justify-content: space-between;
+width: 100%;
+background-color: #F6B400;
+height: 700px;
+
+}
+.bottom {
+display: flex;
+width: 100%;
+justify-content: space-between;
+}
+section {
+background: linear-gradient(100deg, white 50%, #F6B400 50%);
 }
