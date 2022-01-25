@@ -1,7 +1,7 @@
 * {
   margin: 0px;
-  padding: 0px;
-
+padding: 0px;
+justify-content: stretch;
 }
 body {
 border: 1px solid white;
@@ -62,7 +62,7 @@ float: right;
 a:hover {
 text-decoration-line: underline;
 text-decoration-style: solid;
-text-decoration-color: black;
+text-decoration-color: orange;
 text-decoration-thickness: 10px;
 }
 .firstp {
@@ -95,7 +95,7 @@ padding-top: 90px;
 padding-left: 55px;
 }
 .fullburger { 
-padding-right: 100px;
+padding-right: 300px;
 display: inline;
 float: right;
 padding-top: 35px;
@@ -103,27 +103,18 @@ padding-bottom: 350px;
 height: 200px;
 align-items: right;
 }
-.sbgc {
-position: relative;
-z-index: -5;
-}
-
 .level2 {
 display: inline-flex;
 }
 .quality {
-float: left;
-padding-left: 90px;
-padding-bottom: 40px;
+padding-bottom: 0px;
 padding-top: 30px;
 }
 .sub1 {
 color: #4c0121;
 font-family: sans-serif;
-padding-top: 90px;
+padding-top: 20px;
 padding-bottom: 20px;
-padding-right: 500px;
-padding-left: 20px;
 font-size: 25px;
 text-align: center;
 }
@@ -141,22 +132,21 @@ border: 1px solid #4c0121;
 border-radius: 15px;
 text-align: center;
 background-color: white;
-height: 250px;
-width: 248px;
+height: 280px;
+width: 280px;
 font-family: sans-serif;
-padding-right: 35px;
-padding-left: 2px;
-align-items: left;
+margin-right: 40px;
+margin-left: 50px;
 }
 .service2 {
   border: 1px solid #4c0121;
-  height: 260px; 
-  width: 258px;
+  height: 350px; 
+  width: 320px;
   padding-top: 35px;
   border-radius: 15px;
   text-align: center;
   background-color: white;
-  padding-left: 35px;
+  margin-left: 20px;
 
 }
 .delivery {
@@ -176,12 +166,13 @@ font-size: 15px;
 }
 .service3 {
 border: 1px solid #4c0121;
-width: 250px;
-height: 250px;
+width: 280px;
+height: 280px;
 border-radius: 15px;
 text-align: center;
 background-color: white;
 font-family: sans-serif;
+margin-left: 30px;
 }
 .meals {
   padding-top: 28px;
@@ -193,14 +184,13 @@ padding-top: 20px;
 padding-bottom: 15px;
 }
 .services {
-display: inline-flex;
-border: lightgray;
+display: flex;
+flex-direction: row;
+justify-content: center;
 background-color: #eff6fc;
-padding-bottom: 200px;
+padding-bottom: 100px;
 align-items: center;
-padding-top: 50px;
-padding-left: 250px;
-padding-right: 60px;
+padding-top: 150px;
 border-spacing: 10px;
 }
 .menu {
@@ -227,21 +217,20 @@ text-decoration-line: none;
  text-decoration-line: none;
  text-decoration-style: none;
  }
- .sbgc {
-background-blend-mode: overlay;
-background-color: white
-border: 1px solid white;
- }
+ 
  .disp1 {
   border: 2px solid blanchedalmond;
-  height: 350px;
-  width: 260px;
+  height: 320px;
+  width: 350px;
   border-radius: 20px;
+  margin-right: 25px;
+  align-content: center;
  }
  .b1 {
-  padding-left: 50px;
+  align-content: center;
   padding-top: 20px;
   padding-bottom: 10px;
+  padding-left: 100px;
  }
  .db {
   text-align: center;
@@ -263,22 +252,24 @@ border: 1px solid white;
  }
  .disp2 {
    border: 2px solid blanchedalmond;
-   height: 350px;
-   width: 260px;
+   height: 320px;
+   width: 350px;
    border-radius: 20px;
+   margin-right: 25px;
+   justify-content: center;
  }
 .b2 {
 padding-top: 20px;
-padding-left: 50px;
+padding-left: 100px;
 }
 .disp3 {
 border: 2px solid blanchedalmond;
-height: 350px;
-width: 260px;
-border-radius: 20px;
+height: 320px;
+width: 350px;
+border-radius: 25px;
 }
 .b3 {
-padding-left: 50px;
+padding-left: 100px;
 padding-top: 20px;
 }
 .note6 {
@@ -289,12 +280,13 @@ padding-top: 20px;
 }
 .disp4 {
   border: 2px solid blanchedalmond;
-  height: 350px;
-  width: 260px;
-  border-radius: 20px;
+  height: 320px;
+  width: 350px;
+  border-radius: 25px;
+  margin-right: 20px;
   }
   .b4 {
-  padding-left: 50px;
+  padding-left: 100px;
   padding-top: 20px;
   }
   .note7 {
@@ -304,12 +296,13 @@ padding-top: 20px;
     padding-top: 20px;}
 .disp5 {
 border: 2px solid blanchedalmond;
-height: 350px;
-width: 260px;
-border-radius: 20px;
+height: 320px;
+width: 350px;
+border-radius: 25px;
+margin-right: 20px;
 }
 .b5 {
-padding-left: 50px;
+padding-left: 100px;
 padding-top: 20px;
 }
 .note8 {
@@ -319,12 +312,12 @@ font-family: sans-serif;
 padding-top: 20px;}
 .disp6 {
 border: 2px solid blanchedalmond;
-height: 350px;
-width: 260px;
-border-radius: 20px;
+height: 320px;
+width: 350px;
+border-radius: 25px;
 }
 .b6 {
-padding-left: 50px;
+padding-left: 100px;
 padding-top: 20px;
 }
 .note9 {
@@ -334,14 +327,19 @@ font-family: sans-serif;
 padding-top: 20px;
 }
 .disp123 {
-display: inline-flex;
+display: flex;
 padding-bottom: 20px;
-padding-left: 30px;
+justify-content: space-between;
 }
 .disp456 {
 padding-bottom: 20px;
-padding-left: 30px;
-display: inline-flex;
+display: flex;
+justify-content: space-between;
+}
+.displays {
+justify-content: space-between;
+margin-left: 20px;
+margin-right: 20px;
 }
 .par {
 font-family: Arial, Helvetica, sans-serif;
@@ -371,9 +369,8 @@ font-weight: 1000px;
 align-content: left;
 }
 .doubkr {
-display: inline-flex;
+display: flex;
 background-color: #eff6fc;
-padding-right: 240px;
 padding-bottom: 100px;
 
 }
@@ -385,67 +382,56 @@ color: grey;
 font-weight: bold;
 }
 .images {
-display: inline-block;
-position: relative;
-padding-left: 300px;
+display: flex;
 padding-top: 50px;
-padding-right: 90px;
+float: right;
+justify-content: right;
 }
 .dc-1 {
 position: absolute;
-padding-top: 100px;
-top: 30px;
-left: 30px;
-padding-left: 200px;
+padding-top: 10px;
+padding-left: 100px;
+
 }
 .dc-2 {
 position: relative;
-top: 0px;
-left: 0px;
+
 }
 .where {
 font-weight: bolder;
 font-size: 35px;
 font-family: Arial, Helvetica, sans-serif;
-padding-top: 100px;
+padding-top: 50px;
 padding-bottom: 100px;
 padding-left: 20px;
 }
 
+.dicover {
 
+background-color: #F6B400;
+height: 700px;
+}
 .screens {
-display: inline-flex;
-flex-direction: row;
-padding-top: 100px;
+display: flex;
 padding-right: 50px;
 float: right;
 height: 100px;
+padding-bottom: 100px;
+float: right;
 }
 .m1 {
 width: 250px;
-float: inline-end;
 height: 500px;
 }
 .m2 {
 width: 250px;
-float: inline-start;
 height: 500px;
 }
 .mobileapps{
-  float: left;
-  display: flex;
-  flex-direction: column;
-  height: 70px;
-  justify-content: space-between 5px;
+height: 70px;
+
 }
-.appstore {
-background-color: #F6B400;
-flex-direction: column;
-width: 200px;
-}
-.google {
-padding-top: 50px;
-}
+
 .links {
 display: block;
 padding-top: 30px;
@@ -509,14 +495,6 @@ padding-bottom: 10px;
 }
 .copy {
 font-family: Arial, Helvetica, sans-serif;
-}
-.dicover {
-display: flex;
-justify-content: space-between;
-width: 100%;
-background-color: #F6B400;
-height: 700px;
-
 }
 .bottom {
 display: flex;
