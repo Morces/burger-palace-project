@@ -2,7 +2,7 @@
 #### {For ordering fast foods}, {2022}
 #### By **{Moses Karani}**
 ## Description
-{Nthing difficult. Self explanatory. }
+{Nothing difficult. Self explanatory. }
 ## Setup/Installation Requirements
 * This is a great place
 * in a simple
