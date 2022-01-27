@@ -102,6 +102,9 @@ padding-bottom: 350px;
 height: 200px;
 align-items: right;
 }
+section {
+background: linear-gradient(100deg, white 50%, #F6B400 50%);
+}
 .level2 {
 display: inline-flex;
 }
@@ -340,6 +343,26 @@ justify-content: space-between;
 margin-left: 20px;
 margin-right: 20px;
 }
+.cash {
+padding-top: 10px;
+font-weight: bolder;
+font-size: 20px;
+font-family: sans-serif;
+}
+.catlog {
+background-color: #E1EBE6;
+padding-left: 10px;
+padding-bottom: 30px;
+padding-right: 10px;
+padding-bottom: 1px;
+font-size: 20px;
+font-weight: bolder;
+}
+.log {
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
 .par {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
@@ -398,55 +421,50 @@ position: relative;
 font-weight: bolder;
 font-size: 35px;
 font-family: Arial, Helvetica, sans-serif;
-padding-top: 50px;
-padding-bottom: 100px;
+padding-top: 30px;
+padding-bottom: 80px;
 padding-left: 20px;
 }
 
 .dicover {
 display: flex;
 background-color: #F6B400;
-height: 700px;
+height: 500px;
 justify-content: space-between;
+
 }
 .screens {
-
 padding-right: 50px;
 float: right;
-height: 100px;
-
+height: 80px;
+padding-left: 800px;
+padding-top: 50px;
+justify-content: space-between;
 }
 .m1 {
-width: 250px;
-height: 500px;
+float: right;
 }
 .m2 {
-width: 250px;
-height: 500px;
+float: right;
 }
 .mobileapps{
 height: 70px;
 display: flex;
 }
-
 .links {
-display: block;
-padding-top: 30px;
-padding-left: 0px;
-word-spacing: 20px;
+padding-top: 5px:
 }
 .map {
-display: inline-flex;
-padding-top: 30px;
-padding-left: 90px;
+display: inline;
+padding-top: 15px;
+padding-left: 350px;
 }
 .news {
-text-align: right;
+padding-left: 450px;
+padding-top: 35px;
 }
-h3 {
-padding-bottom: 35px;
+.newsletter {
 font-family: Arial, Helvetica, sans-serif;
-padding-right: 62px;
 }
 
 .input {
@@ -459,49 +477,34 @@ height: 36px;
 width: 100px;
 font-family: Arial, Helvetica, sans-serif;
 }
+.sitenav {
+padding-bottom: 5px;
+}
 .footer {
-display: inline;
+display: flex;
 background-color: #eff6fc;
 padding-right: 300px;
-height: 200px;
-width: 1000px;
-}
-.cash {
-padding-top: 10px;
-font-weight: bolder;
-font-size: 20px;
-font-family: sans-serif;
-}
-.catlog {
-background-color: #E1EBE6;
-padding-left: 10px;
-padding-bottom: 30px;
-padding-right: 10px;
-padding-bottom: 1px;
-
-}
-.log {
-display: flex;
-justify-content: space-around;
-padding: 20px;
+height:300px;
 }
 .media {
 height: 5px;
-float: center;
+padding-left: 400px;
 }
 .ackn {
 text-align: right;
 float: right;
 padding-bottom: 10px;
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
 }
 .copy {
 font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
 }
 .bottom {
 display: flex;
-width: 100%;
-justify-content: space-between;
+
 }
-section {
-background: linear-gradient(100deg, white 50%, #F6B400 50%);
+.final {
+padding-top: 20px;
 }
