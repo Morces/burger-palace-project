@@ -1,18 +1,39 @@
 ## Burger Palace Restaurant
+## Description
 
-This is a restaurant that lets customers order fast foods from their homes, and it includes other services like delivery.
+This is a landing page of a burger restaurant.
 
 ## Installation
 
 Installation is simple:
-Open your browser and type in the link address to the burger restaurant and you will be in
+Open your browser and type in the link address to the burger restaurant.
 
 ## Technologies used 
-HTML
+HTML - Structuring the webpage.
 CSS - For styling the webpage.
 
 ## Contributing
 Pull requests are welcomed. Currently the major contributors are Moringa School, Moses Karani.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+MIT License
+
+Copyright (c) 2022 MOSES KARANI
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
